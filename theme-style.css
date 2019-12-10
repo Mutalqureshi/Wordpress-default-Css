@@ -1,0 +1,744 @@
+@import url('fonts.css');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-weight: 400;
+    font-size: 31px;
+    font-family: 'Minion Pro' !important;
+    line-height: 1.1 !important; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-top: 0px;
+    font-family: 'classic-roman', serif !important;
+    font-weight: 700;
+    color:  #13499f;
+}
+img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+    #logo-slider{
+        width: 85% !important;
+        margin: 0 auto !important;
+    }
+    #logo-slider .slick-slide {
+        height: 90px;
+        line-height: 90px;
+
+    }
+    .logo-slider-div{
+        text-align: center;
+        vertical-align: middle;
+    }
+    .logo-slider .slick-dots {
+            display: none !important;
+    }
+     .slick-slide img {
+        display: inline !important;
+    }
+    
+
+.title{
+    font-size: 55px;
+}
+a {
+    text-decoration: none;
+    transition: 0.3s;
+    color: #014576;
+}
+a:hover{
+    color: #014576;
+}
+a:hover,
+a:active,
+a:focus,
+a:hover:focus,
+button:hover,
+button:active,
+button:focus,
+button:hover:focus{
+    outline: none;
+}
+select {
+  background-image:
+    linear-gradient(45deg, transparent 50%, #000 60%),
+    linear-gradient(135deg, #000 40%, transparent 50%) !important;
+  background-position:
+    calc(100% - 20px) 14px,
+    calc(100% - 10px) 14px,
+    100% 0;
+  background-size:
+    10px 10px,
+    10px 10px;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.custom{
+    text-align: center !important;
+}
+.slider-btn:hover{
+    background: #2d3093 !important;
+}
+
+/*----------------------------*/
+/*----no-outline-------*/
+button::-moz-focus-inner {
+  border: 0;
+  outline: none;
+}
+a::-moz-focus-inner {
+  border: 0;
+  outline: none;
+}
+.btn::-moz-focus-inner {
+  border: 0;
+  outline: none;
+}
+a:focus,button:focus,.btn:focus{
+    outline: none;
+}
+.btn-transparent {
+    border: 1px solid #ccc;
+    color: ff;
+    border-radius: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 6px 15px !important;
+}
+.btn-transparent:hover,
+.btn-transparent:focus,
+.btn-transparent:active{
+    background-color: #fff !important;
+    background-color: #000;
+}
+.btn.btn-primary {
+
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:hover:focus{
+    outline: none;
+}
+.btn.btn-light{
+
+}
+.btn.btn-light:hover, .btn.btn-light:active, .btn.btn-light:focus, .btn.btn-light:hover:focus {
+    outline: none;
+}
+button:focus,
+a:focus, a:active,
+.btn:focus,.btn:active
+.btn-primary:focus,.btn-primary:active,
+input:focus,input:active,
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  outline: none !important;
+  box-shadow: none ;
+}
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+.slick-slide a,
+.slick-slide .btn:focus,
+.slick-slide,
+.slick-slide:focus {
+    outline: none;
+}
+/*---no-outline---------*/
+/*-------------------------*/
+/*-----visual-composer-btns-----*/
+body .vc_btn3-style-classic{
+    background-color: #20b6e8 !important;
+    border-radius: 0px !important;
+    background-image: none;
+    border: 1px solid transparent !important;
+    color: #fff !important;
+}
+body .vc_btn3-style-classic:hover,
+body .vc_btn3-style-classic:focus,
+body .vc_btn3-style-classic:active{
+    background-color: #63cbed !important;
+    border: 1px solid #20b6e8 !important;
+    outline: none;
+}
+/*----visual-composer-btns-ended------*/
+/*--------general------------*/
+.no-padding{
+    padding: 0px;
+}
+.no-lg-padding{
+    padding: 0px;
+}
+.hide-lg{
+    display: none !important;
+}
+.hidden{
+    display: none;
+}
+.middle{
+  position: relative;
+  transform: translate(0px, -50%);
+  border: 1px solid #AA0000;
+  top: 50%;
+}
+.v-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bold{
+    font-weight: bold;
+}
+.cus-parallax {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    will-change: transform;
+}
+
+.circle-image {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.scroll-top{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 60px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 27px;
+    color: #a0a0a0;
+    line-height: 40px;
+    text-align: center;
+    z-index: 99999;
+}
+
+/*
+/*--social icons---*/
+/*--------general---------------*/
+/*-----------error-contact-form-7--------------*/
+div.wpcf7-response-output {
+    position: relative;
+    margin: 0px !important;
+    margin-top: 41px !important;
+    margin-bottom: 10px !important;
+    padding: 7px !important;
+    width: 100%;
+    clear: both;
+}
+div.wpcf7-validation-errors {
+    border: 2px solid rgb(220, 9, 9) !important;
+    color: #fff;
+    background-color: #ff2a5b;
+}
+div.wpcf7-spam-blocked{
+    border: 2px solid #bf800d !important;
+    color: #fff;
+    background-color: #c3a823;
+}
+div.wpcf7-mail-sent-ok {
+    border: 2px solid #40a713;
+    color: #fff;
+    background-color: #48ab1d;
+    padding: 6px;
+}
+div.wpcf7-mail-sent-ng {
+    border: 2px solid #e41111;
+    background-color: rgba(224, 59, 89, 0.98);
+} 
+/*-----------error-contact-form-7--------------*/
+.errored {
+    color: #fff;
+    background-color: #ea3d3d;
+    max-width: 500px;
+    margin: auto;
+    display: table;
+    float: none;
+    padding: 2px 10px;
+}
+/* ctc msgs*/
+.ctct-form-wrapper .ctct-message{
+    max-width: 500px;
+}
+.ctct-form-wrapper .success {
+    background-color: #58dc67 !important;
+    border-color: #1e9a2c !important;
+    color: #fff !important;
+    font-size: 18px;
+
+}
+/*ctc msgs*/
+/*Header*/
+/* top header */
+/**/
+
+ul{
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.nav-wrapper{
+
+}
+.nav-wrapper ul{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.nav-wrapper ul li{
+    padding: 40px 0 60px 0 ;
+    display: inline;
+}
+
+.nav-wrapper ul li a{
+    color: #91accc;
+    font-size: 18px;
+    font-family: FrutigerLTPro-light;
+    padding: 40px 18px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+
+.nav-wrapper ul li.current-menu-item a,
+.nav-wrapper ul li.current_page_item a,
+.nav-wrapper ul>li.current-menu-parent>a,
+.nav-wrapper ul li a:hover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url(../img/Bitmap.png);
+
+}
+.nav-wrapper ul li>ul{
+    display: none;
+    width: 210px;
+    position: absolute;
+    z-index: 999;
+    top: 121px;
+    background: rgba(145, 180, 218, 0.6);
+    left: 98px;
+}
+.nav-wrapper ul li>ul>li{
+            display: block;
+            padding: 4px 0 0 0;
+            height: 40px;
+}
+.nav-wrapper ul li>ul>li::before{
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: white; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 10px; /* Also needed for space (tweak if needed) */
+  margin:0 7px;
+}
+.nav-wrapper ul li>ul>li.current-menu-item ,
+.nav-wrapper ul li>ul>li.current_page_item ,
+.nav-wrapper ul li>ul>li:hover{
+        background: rgba(0,0,0,0.2);
+}
+.nav-wrapper ul li>ul>li.current-menu-item  ,
+.nav-wrapper ul li>ul>li.current_page_item{
+
+}
+
+.nav-wrapper ul li>ul>li.current-menu-item a,
+.nav-wrapper ul li>ul>li.current_page_item a,
+.nav-wrapper ul li>ul>li a:hover{
+    background: none;
+
+}
+
+.nav-wrapper ul li>ul>li a{
+    padding: 0;
+    /*color: white;*/
+    color: black;
+    color: #fff;
+    text-transform: capitalize;
+}
+.nav-wrapper ul li>ul>li a:hover{
+    background:none;
+}
+
+.nav-wrapper ul > li:hover > ul{
+    display: block;
+}
+
+header{
+    padding:17px  0 20px 0;
+    border-bottom: 1px solid #f2f5f9;
+}
+.logo{
+    padding-left: 15px;
+}
+
+/*social-icon*/
+.social-icon{
+    line-height: 22px;
+    text-align: right;
+    position: absolute;
+    z-index: 99;
+    right: 14px;
+}
+.social-icon ul{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.social-icon ul li{
+    display: inline-block;
+}
+.social-icon ul li a{
+    text-align: center !important;
+    line-height: 22px !important;
+    color: #91accc;
+    width: 22px !important;
+    height: 22px !important;
+    border:1px solid #91accc !important;
+    border-radius: 5px !important;
+    font-size: 15px !important;
+    display: block !important;
+}
+.social-icon ul li a:hover{
+    background: #91accc;
+    color: white;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+
+/*footer*/
+.foot-nav ul{
+    margin-top: 50px;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.foot-nav ul li{
+    margin-right: 17px;
+    display: inline;
+}
+
+.foot-nav ul li a{
+    color: #f5f8fb;
+    font-size: 18px;
+    font-family: FrutigerLTPro-light;
+    /*padding: 40px 18px;*/
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+.foot-nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.last-footer{
+    background: #2c70b9;
+}
+/*-- social-icon*/
+.social-icon-footer{
+    margin-right: 15px;
+    text-align: right;
+    margin-top: 30px;
+}
+.social-icon-footer ul{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.social-icon-footer ul li{
+    display: inline-block;
+}
+.social-icon-footer ul li a{
+    margin-left: 18px;
+    text-align: center;
+    line-height: 50px;
+    color: #91accc;
+    width: 45px;
+    height: 45px;
+    border:1px solid #91accc;
+    border-radius: 5px;
+    font-size: 32px;
+    display: block;
+    padding-left: 3px;
+}
+.social-icon-footer ul li a:hover{
+    background: #91accc;
+    color: white;
+}
+/*----*/
+.last-footer{
+    padding-top: 144px;
+    padding-bottom: 83px;
+
+    /*position: relative;
+    z-index: 999;*/
+}
+.foot-img{
+    background-image: url('../img/last-footer-top-image.png');
+   
+    height: 252px;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat !important;
+    margin-bottom: -124px;
+    position: relative;
+
+
+}
+
+.foot-img-top{
+    height: 252px;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat !important;
+    margin-top: -164px;
+    position: relative;
+    background-image: url('../img/sec-footer.png');
+}
+
+
+.main-footer{
+    position: relative;     
+
+    padding-top: 360px;
+    padding-bottom: 182px;
+
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat !important;
+    background-image: url('../img/main-footer.png');
+
+}
+.main-content h1{
+    font-family: FrutigerLTPro-roman !important;
+    font-size: 43px;
+    color: #fff;
+    text-shadow:0px 0px  5px #003970;
+    text-align: center;
+}
+.testimonial-sec{
+    margin-top: 70px;
+    padding: 0 177px; 
+}
+.test-con{
+    padding: 50px 50px 12px 60px;
+    background: rgba(58, 80, 147, 0.2);
+    border-radius: 10px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.test-con p{
+    font-size: 27px;
+    color: #fff;
+    font-family: FrutigerLTPro-light;
+}
+
+.test-con p{
+    font-size: 27px;
+    color: #fff;
+    line-height: 33px;
+    font-family: FrutigerLTPro-light ;
+}
+.test-con p:before{
+    content: " “ ";
+    font-size: 36px;
+    font-family: time-roman;
+    display: block;
+    text-align: left;
+    line-height: 10px;
+}
+
+.test-con p:after{
+    content: " ” ";
+    font-size: 36px;
+    font-family: time-roman;
+    display: block;
+    text-align: right;
+    line-height: 10px;
+}
+.test-con h3{
+    font-family: FrutigerLTPro-light !important;
+    text-align: right;
+    font-size: 21px;
+    color: white;
+    margin-top: 50px;
+}
+
+.sec-footer{padding-top: 50px;}
+
+.pl-none{
+    padding-left: 0;
+}
+
+.pr-none{
+    padding-left: 0;
+}
+.free_t img:first-child {
+    padding-left: 45px;
+}
+.free_t img:last-child {
+    padding-left: 20px;
+}
+
+.learn-more a {
+
+    background: #85c2c2;
+    font-size: 45px;
+    text-transform: uppercase;
+
+    font-family: classic-roman;
+    color: white;
+    width: 100%;
+    display: block;
+    padding-left: 145px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.learn-more a:hover{
+    background: #2c70b9;
+    padding-left: 170px;
+}
+.learn-more a>img{
+    padding: 0 !important;
+}
+.learn-more a > img {
+    padding-left: 50px !important;
+    margin-top: -9px;
+}
+.contact_form {
+    font-family: FrutigerLTPro-light;
+    color: #999;
+    font-size: 25px;
+    text-align: right;
+    padding-right: 30px;
+
+}
+.contact_form input{
+    width: 470px;
+    border:1px solid #999999;
+    height: 41px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+
+}
+ .contact_form textarea {
+    width: 470px;
+    border:1px solid #999999;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    height: 173px;
+
+}
+.contact_form .wpcf7-form-control-wrap.classaddress{
+    vertical-align: top;
+}
+
+.contact_form input.form-button {
+    width: 230px;
+    height: 41px;
+    color: white;
+    background:#85c2c2;
+    border: 0;
+    font-family: classic-roman;
+
+}
+.contact_form input.form-button:hover{
+    background:#2c70b9;
+}
+.ajax-loader {
+    display: none !important;
+}
+.mg_top{
+    margin-top: 50px; 
+}
+.if-slider {
+    margin-bottom: -240px;
+}
+
+.slider_content{
+    position: relative;
+}
+.slider_button{
+    right: 10px;
+    top: 100px;
+    z-index: 99;
+    position: absolute;
+}
+.slider_button ul{
+    margin-bottom: 0;
+}
+.slider_button ul li{
+    margin-bottom: 40px;
+}
+
+.tp-parallax-wrap.slider_class_wrapper{
+    left: 0 !important;
+}
+.slider_class {
+    padding: 50px 40px 50px 56px !important;
+    background: 
+    rgba(111, 198, 194, 0.6) !important;
+
+}
+
+/*----------*/
+
+.about-pera p{
+    font-size: 18px;
+    line-height: 27px;
+}
+.slide_ttx h3{
+    font-size: 53px;
+    text-align: right;
+    text-transform: uppercase;
+    color: white;
+}
+
+.pdd-60{
+    padding-right: 60px !important;
+}
+.left-0 {
+    left: 55px !important;
+}
+h3.frutiger_text{
+    font-size: 20px !important;
+    font-family: FrutigerLTPro-roman !important;
+}
+.product_text {
+    font-size: 18px;
+    color:  #999;
+    line-height: 33px;
+    word-spacing: 8px;
+
+}
+
+
+.intro{
+    background: red !important;
+}
